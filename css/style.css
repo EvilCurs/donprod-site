@@ -1512,7 +1512,7 @@ body {
 .fan-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.6s ease;
    transform: scale(0.85);
 }
@@ -3856,6 +3856,13 @@ footer.visible {
   .products-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 35px;
+  }
+
+  .products .product-item:nth-last-child(2) {
+    grid-column: 2 / 3;
+  }
+  .products .product-item:last-child {
+    grid-column: 3 / 4;
   }
   
   /* Карточки продукции партнеров - 3 в строке на десктопе */
