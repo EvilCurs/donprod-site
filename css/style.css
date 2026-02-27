@@ -3928,8 +3928,8 @@ footer.visible {
   }
   
   .gallery-item {
-    height: 550px;
-    max-width: 280px;
+    height: 450px;
+    max-width: 500px;
   }
   
   .reviews-grid {
